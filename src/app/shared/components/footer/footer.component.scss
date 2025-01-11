@@ -1,0 +1,19 @@
+footer{
+    height: 134px;
+    background-color: #0a141e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    >img{
+        height: 44px; 
+    }
+    >.logos{
+        display: flex;
+        >img{
+            width: 32px;
+            height: 32px;
+        }
+    }
+}
