@@ -11,6 +11,16 @@ footer{
     }
     >.logos{
         display: flex;
+        align-items: center;
+        gap: 16px;
+        >a{
+            color: whitesmoke;
+            text-decoration: none;
+            &:hover{
+                cursor: pointer;
+                color: grey;
+            }
+        }
         >img{
             width: 32px;
             height: 32px;
